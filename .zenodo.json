@@ -15,6 +15,7 @@
   "access_right": "open",
   "license": "mit-license",
   "version": "1.0.0",
+  "doi": "10.5281/zenodo.21702763",
   "publication_date": "2026-07-30",
   "keywords": [
     "non-small-cell lung cancer",
@@ -24,6 +25,11 @@
     "reproducibility"
   ],
   "related_identifiers": [
+    {
+      "identifier": "10.5281/zenodo.21702762",
+      "relation": "isVersionOf",
+      "resource_type": "software"
+    },
     {
       "identifier": "https://github.com/yangfeichang2012/nsclc-spatial-discordance-transport-audit/tree/v1.0.0",
       "relation": "isSupplementTo",
@@ -36,4 +42,3 @@
     }
   ]
 }
-

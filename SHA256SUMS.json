@@ -1,13 +1,13 @@
 [
     {
         "path":  ".zenodo.json",
-        "bytes":  1436,
-        "sha256":  "eda04829a27dec6e09fcd28880a0ae8af6dab043f4a26d32a1d3c84d003c343d"
+        "bytes":  1598,
+        "sha256":  "995a6cd2cd24fc39df7af667960d0e64d1b075674dfe3faf8dc9c1def0d0f6f5"
     },
     {
         "path":  "CITATION.cff",
-        "bytes":  806,
-        "sha256":  "cead8afc11a9c892ac740848098c2e1dc4ef9077a49f1d42898610691c67e9bd"
+        "bytes":  881,
+        "sha256":  "53a2317faf8b4e805c836b767cf8721a0bf76dc4b5b87f37f0de877d6281b19b"
     },
     {
         "path":  "data/claim_ledger.csv",
@@ -41,8 +41,8 @@
     },
     {
         "path":  "README.md",
-        "bytes":  2956,
-        "sha256":  "fd2e9498523a6acef7a7bc7f77aecb2a728f9afd203824a2d71996a1c6246a03"
+        "bytes":  2982,
+        "sha256":  "b23295e8d6248083a35dcb1b7a12241c161907eab10c1e651145f1541bea4142"
     },
     {
         "path":  "reproduced_figures/delta_C_forest.png",
@@ -76,7 +76,7 @@
     },
     {
         "path":  "scripts/validate_archive.py",
-        "bytes":  3066,
-        "sha256":  "cb970e3b4f3555c52068a3fae44691844ee87171e2332f51da8f877f5b46b94b"
+        "bytes":  3185,
+        "sha256":  "6e5457a4a87b4675868adfa72ac59ad03dd501b1629fd8840994a43ef0d09128"
     }
 ]

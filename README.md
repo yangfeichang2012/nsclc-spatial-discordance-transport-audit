@@ -47,9 +47,9 @@ This archive contains no participant identifier, participant-level outcome, regi
 
 ## Citation
 
-See `CITATION.cff`. The Zenodo DOI will be added to this release metadata before publication.
+See `CITATION.cff`. The archived version DOI is
+`10.5281/zenodo.21702763`; the concept DOI is `10.5281/zenodo.21702762`.
 
 ## License
 
 Code is released under the MIT License. Aggregate documentation and figures may be reused with citation of this archive and the parent data source. The source datasets retain their original repository terms.
-

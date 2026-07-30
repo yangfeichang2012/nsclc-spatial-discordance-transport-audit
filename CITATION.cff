@@ -4,6 +4,7 @@ title: "NSCLC spatial discordance fixed-coefficient transport audit"
 type: software
 version: 1.0.0
 date-released: 2026-07-30
+doi: 10.5281/zenodo.21702763
 authors:
   - family-names: Duan
     given-names: Chuan-Xin
@@ -12,6 +13,7 @@ authors:
     given-names: Lang
     affiliation: "China-Japan Friendship Hospital"
 repository-code: "https://github.com/yangfeichang2012/nsclc-spatial-discordance-transport-audit"
+url: "https://doi.org/10.5281/zenodo.21702763"
 license: MIT
 keywords:
   - non-small-cell lung cancer
@@ -19,4 +21,3 @@ keywords:
   - immunotherapy
   - transportability
   - reproducibility
-

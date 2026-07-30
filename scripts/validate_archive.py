@@ -70,7 +70,12 @@ def main() -> None:
             and sha256(path) == item["sha256"]
         )
 
-    file_names = [p.relative_to(ROOT).as_posix().lower() for p in ROOT.rglob("*") if p.is_file()]
+    archive_files = [
+        p
+        for p in ROOT.rglob("*")
+        if p.is_file() and ".git" not in p.relative_to(ROOT).parts
+    ]
+    file_names = [p.relative_to(ROOT).as_posix().lower() for p in archive_files]
     checks["privacy_filename_boundary"] = not any(
         token in name for token in FORBIDDEN_NAMES for name in file_names
     )
@@ -80,7 +85,7 @@ def main() -> None:
     checks["no_author_email"] = not any(
         "@qq.com" in p.read_text(encoding="utf-8", errors="ignore")
         or "@163.com" in p.read_text(encoding="utf-8", errors="ignore")
-        for p in ROOT.rglob("*")
+        for p in archive_files
         if p.is_file()
         and p.resolve() != Path(__file__).resolve()
         and p.suffix.lower() in {".md", ".json", ".cff", ".txt", ".csv", ".py"}
