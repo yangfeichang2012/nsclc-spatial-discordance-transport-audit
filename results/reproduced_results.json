@@ -1,0 +1,95 @@
+{
+  "archive_version": "1.0.1",
+  "study_identity": "analysis-plan-locked post-deviation secondary transport audit",
+  "outcome": "two-year truncated PFS",
+  "preprocessing": "target-cohort median/IQR normalization; coefficients fixed, full pipeline not fixed",
+  "uncertainty_conditioning": "conditional on fitted Yale coefficients and observed target-cohort preprocessing",
+  "sealed_yale_coefficients": {
+    "B0_M": 1.2351555460162515,
+    "B1_M": 1.2392799449001186,
+    "B1_D": -0.023505738171393748
+  },
+  "Greek_primary_under_amended_G11": {
+    "n": 61,
+    "events": 45,
+    "C_B0": 0.6136224801466097,
+    "C_B1": 0.5919364691508857,
+    "delta_C": -0.02168601099572398,
+    "comparable_pairs": 1637,
+    "bootstrap_95_percentile_CI": [
+      -0.0640426761828849,
+      0.020918298917445496
+    ]
+  },
+  "UQ_descriptive_stress_test": {
+    "n": 19,
+    "events": 18,
+    "C_B0": 0.6697530864197531,
+    "C_B1": 0.6296296296296297,
+    "delta_C": -0.04012345679012341,
+    "comparable_pairs": 162,
+    "bootstrap_95_percentile_interval": [
+      -0.1558493258334023,
+      0.08824980650154793
+    ]
+  },
+  "M_value_counts": {
+    "Yale": {
+      "-1": 10,
+      "0": 14,
+      "1": 10
+    },
+    "Greek": {
+      "-1": 13,
+      "0": 34,
+      "1": 14
+    },
+    "UQ": {
+      "-1": 3,
+      "0": 12,
+      "0.5": 1,
+      "1": 3
+    }
+  },
+  "two_year_outcome_audit": {
+    "Yale": {
+      "definition": "T*=min(observed PFS,24 months); event=1 only for progression/death by 24 months",
+      "minimum_months": 1.7,
+      "maximum_months": 24.0,
+      "n_at_exactly_24_months": 6,
+      "events_at_exactly_24_months": 0,
+      "maximum_event_time_months": 14.7
+    },
+    "Greek": {
+      "definition": "T*=min(observed PFS,24 months); event=1 only for progression/death by 24 months",
+      "minimum_months": 0.6,
+      "maximum_months": 24.0,
+      "n_at_exactly_24_months": 7,
+      "events_at_exactly_24_months": 0,
+      "maximum_event_time_months": 23.04
+    },
+    "UQ": {
+      "definition": "T*=min(observed PFS,24 months); event=1 only for progression/death by 24 months",
+      "minimum_months": 1.379876796714579,
+      "maximum_months": 14.718685831622176,
+      "n_at_exactly_24_months": 0,
+      "events_at_exactly_24_months": 0,
+      "maximum_event_time_months": 14.718685831622176
+    }
+  },
+  "candidate_universe": {
+    "response_unique_n": 256,
+    "resistance_unique_n": 644,
+    "anchor_row_positions_not_ranks": {
+      "APOE": 240,
+      "CD68": 40,
+      "CXCL14": 97,
+      "PECAM1": 607
+    }
+  },
+  "bootstrap": {
+    "repetitions": 2000,
+    "seed_reset_separately_for_each_target": 20260731,
+    "resampling_unit": "patient"
+  }
+}

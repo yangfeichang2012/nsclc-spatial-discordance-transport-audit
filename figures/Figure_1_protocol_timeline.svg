@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="706.32pt" height="280.512pt" viewBox="0 0 706.32 280.512" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2026-07-31T02:15:10.004733</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.11.1, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 280.512 
+L 706.32 280.512 
+L 706.32 0 
+L 0 0 
+z
+" style="fill: #ffffff"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 18.36 211.041792 
+L 216.45 211.041792 
+Q 220.914 211.041792 220.914 206.784 
+L 220.914 81.71136 
+Q 220.914 77.453568 216.45 77.453568 
+L 18.36 77.453568 
+Q 13.896 77.453568 13.896 81.71136 
+L 13.896 206.784 
+Q 13.896 211.041792 18.36 211.041792 
+z
+" clip-path="url(#pbf5a884f7d)" style="fill: #dbeafe; stroke: #334155; stroke-width: 1.4; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_3">
+    <path d="M 241.56 211.041792 
+L 439.65 211.041792 
+Q 444.114 211.041792 444.114 206.784 
+L 444.114 81.71136 
+Q 444.114 77.453568 439.65 77.453568 
+L 241.56 77.453568 
+Q 237.096 77.453568 237.096 81.71136 
+L 237.096 206.784 
+Q 237.096 211.041792 241.56 211.041792 
+z
+" clip-path="url(#pbf5a884f7d)" style="fill: #fef3c7; stroke: #334155; stroke-width: 1.4; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 464.76 211.041792 
+L 662.85 211.041792 
+Q 667.314 211.041792 667.314 206.784 
+L 667.314 81.71136 
+Q 667.314 77.453568 662.85 77.453568 
+L 464.76 77.453568 
+Q 460.296 77.453568 460.296 81.71136 
+L 460.296 206.784 
+Q 460.296 211.041792 464.76 211.041792 
+z
+" clip-path="url(#pbf5a884f7d)" style="fill: #dcfce7; stroke: #334155; stroke-width: 1.4; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_5">
+    <path d="M 218.451566 144.513792 
+Q 229.00579 144.513792 237.994767 144.513792 
+" clip-path="url(#pbf5a884f7d)" style="fill: none; stroke: #475569; stroke-width: 1.4; stroke-linecap: round"/>
+    <path d="M 232.394767 141.713792 
+L 237.994767 144.513792 
+L 232.394767 147.313792 
+z
+" clip-path="url(#pbf5a884f7d)" style="fill: #475569; stroke: #475569; stroke-width: 1.4; stroke-linecap: round"/>
+   </g>
+   <g id="patch_6">
+    <path d="M 441.651566 144.513792 
+Q 452.20579 144.513792 461.194767 144.513792 
+" clip-path="url(#pbf5a884f7d)" style="fill: none; stroke: #475569; stroke-width: 1.4; stroke-linecap: round"/>
+    <path d="M 455.594767 141.713792 
+L 461.194767 144.513792 
+L 455.594767 147.313792 
+z
+" clip-path="url(#pbf5a884f7d)" style="fill: #475569; stroke: #475569; stroke-width: 1.4; stroke-linecap: round"/>
+   </g>
+   <g id="text_1">
+    <text style="font-weight: 700; font-size: 10.5px; font-family: 'DejaVu Sans'; text-anchor: start" x="28.404" y="112.043127" transform="rotate(-0 28.404 112.043127)">G09 — original estimand</text>
+   </g>
+   <g id="text_2">
+    <text style="font-size: 8.7px; font-family: 'DejaVu Sans'" transform="translate(28.404 134.061884)">Weighted UQ + Greek transport</text>
+    <text style="font-size: 8.7px; font-family: 'DejaVu Sans'" transform="translate(28.404 146.676884)">UQ anticipated n=27</text>
+    <text style="font-size: 8.7px; font-family: 'DejaVu Sans'" transform="translate(28.404 159.291884)">Hard gate n≥25</text>
+    <text style="font-size: 8.7px; font-family: 'DejaVu Sans'" transform="translate(28.404 171.906884)">Invalid author key → STOP</text>
+   </g>
+   <g id="text_3">
+    <text style="font-weight: 700; font-size: 10.5px; font-family: 'DejaVu Sans'; text-anchor: start" x="251.604" y="112.043127" transform="rotate(-0 251.604 112.043127)">G10 — public recovery</text>
+   </g>
+   <g id="text_4">
+    <text style="font-size: 8.7px; font-family: 'DejaVu Sans'" transform="translate(251.604 134.562814)">Public GEO/source-table crosswalk</text>
+    <text style="font-size: 8.7px; font-family: 'DejaVu Sans'" transform="translate(251.604 146.676884)">21 predictor-paired patients</text>
+    <text style="font-size: 8.7px; font-family: 'DejaVu Sans'" transform="translate(251.604 159.291884)">19 outcome-complete patients</text>
+    <text style="font-size: 8.7px; font-family: 'DejaVu Sans'" transform="translate(251.604 171.906884)">Original G09 gate not met</text>
+   </g>
+   <g id="text_5">
+    <text style="font-weight: 700; font-size: 10.5px; font-family: 'DejaVu Sans'; text-anchor: start" x="474.804" y="112.043127" transform="rotate(-0 474.804 112.043127)">G11 — amended plan</text>
+   </g>
+   <g id="text_6">
+    <text style="font-size: 8.7px; font-family: 'DejaVu Sans'" transform="translate(474.804 134.904697)">Frozen before outcome-linked execution</text>
+    <text style="font-size: 8.7px; font-family: 'DejaVu Sans'" transform="translate(474.804 146.676884)">Greek cohort primary</text>
+    <text style="font-size: 8.7px; font-family: 'DejaVu Sans'" transform="translate(474.804 159.291884)">UQ descriptive stress test</text>
+    <text style="font-size: 8.7px; font-family: 'DejaVu Sans'" transform="translate(474.804 171.906884)">G09 never resumed or reweighted</text>
+   </g>
+   <g id="text_7">
+    <text style="font-weight: 700; font-size: 15px; font-family: 'DejaVu Sans'; text-anchor: middle" x="353.16" y="31.15008" transform="rotate(-0 353.16 31.15008)">Protocol and analysis-plan chronology</text>
+   </g>
+   <g id="text_8">
+    <text style="font-size: 10.5px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #334155" x="353.16" y="244.03968" transform="rotate(-0 353.16 244.03968)">Study identity: analysis-plan-locked post-deviation secondary transport audit</text>
+   </g>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="pbf5a884f7d">
+   <rect x="7.2" y="7.2" width="691.92" height="266.112"/>
+  </clipPath>
+ </defs>
+</svg>

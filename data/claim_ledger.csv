@@ -1,4 +1,4 @@
-﻿claim_id,status,wording,boundary
+claim_id,status,wording,boundary
 C01,ALLOWED,Adding frozen D did not improve PFS rank discrimination in Greek.,Greek held-out center within the same parent study.
 C02,ALLOWED_WITH_CAVEAT,UQ showed a directionally similar negative point estimate.,Descriptive only; N=19; wide exploratory interval; no pooling.
 C03,FORBIDDEN,D definitely harms prediction or is unrelated to PFS.,Both intervals cross zero; no universal-null inference.

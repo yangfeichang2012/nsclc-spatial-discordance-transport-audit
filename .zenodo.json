@@ -1,6 +1,6 @@
 {
-  "title": "NSCLC spatial discordance fixed-coefficient transport audit",
-  "description": "Aggregate, deidentified reproducibility archive for a prespecified secondary reanalysis of public multicenter NSCLC spatial transcriptomic data. Yale supplied fixed coefficients, Greek was the sole confirmatory held-out center within the parent study, and UQ was a descriptive stress test after a prespecified sample-size gate failed.",
+  "title": "Cohort-normalized fixed-coefficient NSCLC spatial discordance transport audit",
+  "description": "Corrected end-to-end reproducibility archive for an analysis-plan-locked post-deviation secondary transport audit of public multicenter NSCLC spatial transcriptomic data. The release discloses the G09-G10-G11 history, reconstructs the sealed Yale coefficients, repeats the locked Greek-primary and UQ-descriptive calculations from public inputs, and identifies the outcome as two-year truncated PFS.",
   "upload_type": "software",
   "creators": [
     {
@@ -14,9 +14,9 @@
   ],
   "access_right": "open",
   "license": "mit-license",
-  "version": "1.0.0",
-  "doi": "10.5281/zenodo.21702763",
-  "publication_date": "2026-07-30",
+  "version": "1.0.1",
+  "doi": "10.5281/zenodo.21708848",
+  "publication_date": "2026-07-31",
   "keywords": [
     "non-small-cell lung cancer",
     "spatial transcriptomics",
@@ -31,7 +31,7 @@
       "resource_type": "software"
     },
     {
-      "identifier": "https://github.com/yangfeichang2012/nsclc-spatial-discordance-transport-audit/tree/v1.0.0",
+      "identifier": "https://github.com/yangfeichang2012/nsclc-spatial-discordance-transport-audit/tree/v1.0.1",
       "relation": "isSupplementTo",
       "resource_type": "software"
     },

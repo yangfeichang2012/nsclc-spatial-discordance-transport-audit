@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.0",
+  "sources": [
+    {
+      "id": "figure6_source",
+      "filename": "41588_2025_2351_MOESM10_ESM.xlsx",
+      "url": "https://static-content.springer.com/esm/art%3A10.1038%2Fs41588-025-02351-7/MediaObjects/41588_2025_2351_MOESM10_ESM.xlsx",
+      "bytes": 26116585,
+      "sha256": "5bd36caba9bdae4569459f3ea38d1881fcaf662c7537a5f71951bd3fa8b5b3d3",
+      "role": "Yale and Greek source rows; UQ published binary scores"
+    },
+    {
+      "id": "supplementary_data",
+      "filename": "41588_2025_2351_MOESM5_ESM.xlsx",
+      "url": "https://static-content.springer.com/esm/art%3A10.1038%2Fs41588-025-02351-7/MediaObjects/41588_2025_2351_MOESM5_ESM.xlsx",
+      "bytes": 55266,
+      "sha256": "4284b4e1204500bad8c879c5407d480c98d63504c01abf3c6f3cacda87913d74",
+      "role": "UQ clinical outcomes and the parent candidate-gene lists"
+    },
+    {
+      "id": "uq_geo_metadata",
+      "filename": "GSE221733_series_matrix.txt.gz",
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE221nnn/GSE221733/matrix/GSE221733_series_matrix.txt.gz",
+      "bytes": 9892,
+      "sha256": "5d5b851ff84cddb100dd5002710388174dbc7c293d7a24fbf0a4d5fff07524f2",
+      "role": "UQ ROI-to-patient and compartment mapping"
+    },
+    {
+      "id": "uq_normalized_matrix",
+      "filename": "GSE221733_4301_CTA_norm.xlsx",
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE221nnn/GSE221733/suppl/GSE221733_4301_CTA_norm.xlsx",
+      "bytes": 1674334,
+      "sha256": "9254f822b2e38354ccd76671c2eac9333cf873f7bbb905b568070da1d73c8158",
+      "role": "UQ normalized four-gene expression"
+    }
+  ]
+}
