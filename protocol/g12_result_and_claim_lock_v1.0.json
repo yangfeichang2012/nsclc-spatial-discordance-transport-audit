@@ -1,0 +1,98 @@
+{
+  "lock_id": "PRJ015_G12_RESULT_AND_CLAIM_LOCK_V1_0",
+  "project_id": "PRJ-2026-015",
+  "created_on": "2026-07-30",
+  "authorization_text": "结果锁定与论文可发表性审计，不再追加模型分析",
+  "status": "FROZEN_BEFORE_G12_FIGURES_AND_WRITING",
+  "analysis_policy": {
+    "new_model_analysis": false,
+    "new_expression_or_outcome_read": false,
+    "model_or_bootstrap_rerun": false,
+    "new_confidence_interval_or_p_value": false,
+    "threshold_gene_weight_or_aggregation_change": false,
+    "g09_resume_or_reweight": false,
+    "allowed": [
+      "verbatim reuse and display-only rounding of locked aggregate G11 results",
+      "aggregate plotting of existing C and delta-C estimates",
+      "direct-neighbor, novelty, reporting-guideline, and journal-fit search",
+      "manuscript outline and claim-boundary drafting",
+      "artifact, hash, privacy, and publication-readiness QA"
+    ]
+  },
+  "study_identity": {
+    "primary_label": "prespecified secondary reanalysis and fixed-coefficient transport audit",
+    "parent_data_relationship": "same parent multicenter publication and public data release",
+    "greek_role": "geographically held-out confirmatory center within the parent study; not independent study-level validation",
+    "uq_role": "secondary descriptive stress test only",
+    "not_allowed_labels": [
+      "new biomarker discovery",
+      "independent study-level external validation",
+      "three-center confirmation",
+      "clinical utility validation",
+      "mechanistic validation",
+      "authors' final eight-gene signature validation"
+    ]
+  },
+  "locked_results": {
+    "greek": {
+      "n": 61,
+      "events": 45,
+      "comparable_pairs": 1637,
+      "C_B0_fixed": 0.6136224801466097,
+      "C_B1_fixed": 0.5919364691508857,
+      "delta_C": -0.02168601099572398,
+      "percentile_95_CI": [
+        -0.0640426761828849,
+        0.020918298917445496
+      ],
+      "decision": "NO_INCREMENT_OR_HARM"
+    },
+    "uq": {
+      "n": 19,
+      "events": 18,
+      "comparable_pairs": 162,
+      "C_B0_fixed": 0.6697530864197531,
+      "C_B1_fixed": 0.6296296296296297,
+      "delta_C": -0.04012345679012341,
+      "exploratory_percentile_95_interval": [
+        -0.1558493258334023,
+        0.08824980650154793
+      ],
+      "confirmatory_n20_gate": "FAIL_CLOSED_N19"
+    }
+  },
+  "claim_lock": {
+    "primary_allowed_claim": "In the Greek held-out center, adding the frozen discordance score did not improve PFS rank discrimination over the fixed baseline model.",
+    "precision_caveat": "The confidence interval crossed zero, so a definite performance harm or a universally null association is not established.",
+    "uq_caveat": "The UQ estimate was directionally similar but imprecise and remained descriptive because the frozen N>=20 gate failed.",
+    "forbidden_claims": [
+      "D definitely worsens prediction",
+      "D is unrelated to PFS in NSCLC",
+      "the model is externally validated across two independent studies",
+      "the score predicts immunotherapy benefit or guides treatment",
+      "the four anchors establish a causal tumor-stroma resistance mechanism"
+    ]
+  },
+  "locked_inputs": {
+    "outputs/g11_execution_v1/g11_results.json": {
+      "bytes": 4155,
+      "sha256": "037f92b7e4523a3902ad475747e11d10e3288949ad15ca89d83318d948f6940a"
+    },
+    "outputs/g11_execution_v1/g11_execution_report.md": {
+      "bytes": 2538,
+      "sha256": "bf65cf686cb0b98fca31658aa3718cdbee59b0cb589da5bf1b76c6bf57bf7bc2"
+    },
+    "outputs/g11_execution_v1/independent_validation.json": {
+      "bytes": 772,
+      "sha256": "82844e45d8e4420aec6185e0c4927df60b60766ca32de27fa23b1c89f0505bf2"
+    },
+    "outputs/g11_execution_v1/qa_summary.json": {
+      "bytes": 1064,
+      "sha256": "a0bd15f91e1b497afe874bcbac0e4d7f31036463c4789061cd243303ada6483a"
+    },
+    "outputs/g11_execution_v1/artifact_manifest.json": {
+      "bytes": 2926,
+      "sha256": "d96e185bbc147c2a305865e35d2c48b0be8851851cc6c533e98b912064b95ae3"
+    }
+  }
+}

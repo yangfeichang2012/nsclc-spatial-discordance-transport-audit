@@ -1,0 +1,116 @@
+{
+  "contract_id": "PRJ015_G11_GREEK_PRIMARY_PROTOCOL_V1_0",
+  "project_id": "PRJ-2026-015",
+  "version": "1.0",
+  "frozen_on": "2026-07-30",
+  "analysis_go": false,
+  "relationship_to_prior_execution": {
+    "G09": "TERMINATED_NON_EXECUTABLE_MUST_NOT_RESUME",
+    "G10": "SOURCE_RECOVERY_COMPLETE_UQ_N20_FAIL_CLOSED",
+    "G11": "NEW_ESTIMAND_NOT_A_REWEIGHTED_G09"
+  },
+  "analysis_unit": "patient",
+  "training_model": {
+    "source": "sealed Yale fixed coefficients from G09 v1.0.1",
+    "refitting": "PROHIBITED",
+    "B0": {
+      "predictors": [
+        "M"
+      ],
+      "beta_M": 1.2351555460162515
+    },
+    "B1": {
+      "predictors": [
+        "M",
+        "D"
+      ],
+      "beta_M": 1.2392799449001186,
+      "beta_D": -0.023505738171393748
+    }
+  },
+  "predictor_contract": {
+    "normalization": "(x - cohort_median) / (cohort_IQR / 1.349)",
+    "normalization_scope": "cohort_local_predictor_only_without_outcome_use",
+    "tumor_resistance_component": "R = 0.5*z(CXCL14) + 0.5*z(PECAM1)",
+    "stroma_response_component": "S = 0.5*z(APOE) + 0.5*z(CD68)",
+    "discordance": "D = R - S",
+    "published_binary_margin": "M = resistance_high - response_high",
+    "published_continuous_score_reconstruction": "PROHIBITED_NOT_EXACTLY_REPRODUCIBLE"
+  },
+  "cohorts": {
+    "Greek": {
+      "role": "sole_confirmatory_external_center",
+      "source": "Figure 6 source workbook / GSE271689",
+      "paired_patient_n": 61,
+      "pfs_complete_n": 61,
+      "pfs_events": 45,
+      "roi_aggregation": "not_required_one_tumor_and_one_stroma_row_per_ROILabel"
+    },
+    "UQ": {
+      "role": "secondary_descriptive_stress_test_only",
+      "source": "GSE221733 plus author repository commit 7cb78392967696fc5a6ec44d05e687a11052f94f",
+      "paired_predictor_n": 21,
+      "pfs_complete_n": 19,
+      "pfs_events": 18,
+      "confirmatory_gate": "FAIL_CLOSED_N_LT_20",
+      "roi_aggregation": "median_within_patient_within_compartment_before_cohort_local_robust_scaling",
+      "inference": "no_confirmatory_decision_and_no_pooling_with_Greek"
+    }
+  },
+  "outcome": {
+    "name": "PFS_2Years",
+    "time_unit": "months",
+    "event_definition": "progression_or_death",
+    "time_zero": "PD1_pathway_treatment_start"
+  },
+  "primary_estimand": {
+    "cohort": "Greek",
+    "metric": "delta_Harrell_C",
+    "contrast": "C_B1_fixed_minus_C_B0_fixed",
+    "bootstrap_repetitions": 2000,
+    "bootstrap_unit": "patient_paired_models",
+    "seed": 20260731,
+    "confidence_interval": "percentile_95_percent"
+  },
+  "primary_decision_rule": {
+    "ROBUST_INCREMENT": "delta_C_gt_0_and_ci_lower_gt_0",
+    "DIRECTIONAL_INCREMENT": "delta_C_gt_0_and_ci_includes_0",
+    "NO_INCREMENT_OR_HARM": "delta_C_le_0",
+    "NON_EXECUTABLE": "Greek_source_gate_or_numeric_gate_fails"
+  },
+  "secondary_uq_output": {
+    "allowed": [
+      "complete_case_N_and_events",
+      "descriptive_fixed_model_delta_C",
+      "descriptive_patient_bootstrap_interval_labeled_exploratory"
+    ],
+    "prohibited": [
+      "confirmatory_classification",
+      "pooled_weight",
+      "claiming_N20_pass",
+      "imputing_or_guessing_two_missing_outcomes",
+      "using_numeric_token_new_ID_row_order_or_outcome_similarity_for_rescue"
+    ]
+  },
+  "hard_gates": {
+    "G11_01_public_rescue_exhausted": "PASS_NO_RESCUE",
+    "G11_02_Greek_patient_compartment_mapping": "PASS_61_OF_61",
+    "G11_03_Greek_anchor_binary_time_event_completeness": "PASS_61_OF_61",
+    "G11_04_Greek_event_floor": "PASS_45_EVENTS",
+    "G11_05_UQ_role_separated_from_confirmatory_primary": "PASS",
+    "G11_06_patient_level_UQ_multi_ROI_rule_frozen": "PASS_MEDIAN_WITHIN_COMPARTMENT",
+    "G11_07_new_estimand_and_decision_rule_frozen": "PASS",
+    "G11_08_formal_analysis_authorization": "NOT_OPENED"
+  },
+  "prohibitions": [
+    "resume_or_reweight_G09",
+    "external_refit_or_recalibration",
+    "outcome_guided_center_gene_weight_threshold_or_aggregation_selection",
+    "roi_or_aoi_as_independent_n",
+    "dichotomize_D",
+    "impute_or_infer_missing_UQ_PFS",
+    "promote_UQ_N19_to_confirmatory_validation",
+    "causal_mechanistic_treatment_selection_or_clinical_utility_claim"
+  ],
+  "current_state": "PROTOCOL_FROZEN_AWAITING_EXPLICIT_G11_ANALYSIS_GO"
+}

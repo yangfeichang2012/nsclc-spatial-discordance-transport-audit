@@ -1,0 +1,7 @@
+﻿claim_id,status,wording,boundary
+C01,ALLOWED,Adding frozen D did not improve PFS rank discrimination in Greek.,Greek held-out center within the same parent study.
+C02,ALLOWED_WITH_CAVEAT,UQ showed a directionally similar negative point estimate.,Descriptive only; N=19; wide exploratory interval; no pooling.
+C03,FORBIDDEN,D definitely harms prediction or is unrelated to PFS.,Both intervals cross zero; no universal-null inference.
+C04,FORBIDDEN,Independent multicenter external validation.,All centers come from the same parent publication/data release.
+C05,FORBIDDEN,"New biomarker, causal mechanism, treatment selection, or clinical utility.",No such estimand or independent evidence was analyzed.
+C06,REQUIRED,"Four anchors are candidate-pool anchors, not the final eight-gene signatures.","Must appear in abstract limitations, methods, and discussion."

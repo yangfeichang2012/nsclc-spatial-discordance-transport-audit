@@ -1,0 +1,39 @@
+{
+  "title": "NSCLC spatial discordance fixed-coefficient transport audit",
+  "description": "Aggregate, deidentified reproducibility archive for a prespecified secondary reanalysis of public multicenter NSCLC spatial transcriptomic data. Yale supplied fixed coefficients, Greek was the sole confirmatory held-out center within the parent study, and UQ was a descriptive stress test after a prespecified sample-size gate failed.",
+  "upload_type": "software",
+  "creators": [
+    {
+      "name": "Duan, Chuan-Xin",
+      "affiliation": "National Cancer Center/National Clinical Research Center for Cancer/Cancer Hospital, Chinese Academy of Medical Sciences and Peking Union Medical College"
+    },
+    {
+      "name": "Yang, Lang",
+      "affiliation": "China-Japan Friendship Hospital"
+    }
+  ],
+  "access_right": "open",
+  "license": "mit-license",
+  "version": "1.0.0",
+  "publication_date": "2026-07-30",
+  "keywords": [
+    "non-small-cell lung cancer",
+    "spatial transcriptomics",
+    "immunotherapy",
+    "transportability",
+    "reproducibility"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "https://github.com/yangfeichang2012/nsclc-spatial-discordance-transport-audit/tree/v1.0.0",
+      "relation": "isSupplementTo",
+      "resource_type": "software"
+    },
+    {
+      "identifier": "10.1038/s41588-025-02351-7",
+      "relation": "isDerivedFrom",
+      "resource_type": "publication-article"
+    }
+  ]
+}
+

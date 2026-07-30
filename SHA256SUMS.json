@@ -1,0 +1,82 @@
+[
+    {
+        "path":  ".zenodo.json",
+        "bytes":  1436,
+        "sha256":  "eda04829a27dec6e09fcd28880a0ae8af6dab043f4a26d32a1d3c84d003c343d"
+    },
+    {
+        "path":  "CITATION.cff",
+        "bytes":  806,
+        "sha256":  "cead8afc11a9c892ac740848098c2e1dc4ef9077a49f1d42898610691c67e9bd"
+    },
+    {
+        "path":  "data/claim_ledger.csv",
+        "bytes":  869,
+        "sha256":  "7f13184a6415f5a006e732199677b8d3137b7d40694d38039ef6b1848fabbbc4"
+    },
+    {
+        "path":  "data/figure_source_data.csv",
+        "bytes":  414,
+        "sha256":  "3f895325648afdb578d87ad0063f14d34499b979e990bf2145bd1dec446f85fb"
+    },
+    {
+        "path":  "data/result_ledger.csv",
+        "bytes":  558,
+        "sha256":  "6abfbc9b059ad458309269fed580c711d9ead76fc03bd7ec9ea37250198c99f1"
+    },
+    {
+        "path":  "LICENSE",
+        "bytes":  1086,
+        "sha256":  "b4a2bbf3b836e4f997263b70ce05a7dbf40b56da95f0fde63e8a90aaf901c6fd"
+    },
+    {
+        "path":  "protocol/g11_protocol_contract_v1.0.json",
+        "bytes":  4223,
+        "sha256":  "0c55d0e68811db73dc4c4be894472e3d37b805229fa4ccbb0a7ad6a40504f491"
+    },
+    {
+        "path":  "protocol/g12_result_and_claim_lock_v1.0.json",
+        "bytes":  4110,
+        "sha256":  "b524db1af155142d163923ae7b90048b617ab972ebf6035a05b3d3776278cfe7"
+    },
+    {
+        "path":  "README.md",
+        "bytes":  2956,
+        "sha256":  "fd2e9498523a6acef7a7bc7f77aecb2a728f9afd203824a2d71996a1c6246a03"
+    },
+    {
+        "path":  "reproduced_figures/delta_C_forest.png",
+        "bytes":  51107,
+        "sha256":  "542fa3bae9f6fb8829548d7db229b2f82bfcdfcd7ec477f7bb4d6affe3245c17"
+    },
+    {
+        "path":  "reproduced_figures/delta_C_forest.svg",
+        "bytes":  29958,
+        "sha256":  "ba5bd5232a00dd0380664e8216491ae9271d969a23f0cc22c00025229c57e1b5"
+    },
+    {
+        "path":  "reproduced_figures/fixed_C_values.png",
+        "bytes":  54259,
+        "sha256":  "da19790cf527637ccf3ebd617f562a58b561663dbd0618b94893817bee4adce9"
+    },
+    {
+        "path":  "reproduced_figures/fixed_C_values.svg",
+        "bytes":  27389,
+        "sha256":  "25cf9ad8d0eda090ab50d5a98573b89885a1b8ba063c09752c85a13afb089def"
+    },
+    {
+        "path":  "requirements.txt",
+        "bytes":  33,
+        "sha256":  "fd80836dbab9632790fee4eddaacf2f5a61f9dce7f8fe5a21320e2d456bc5ff7"
+    },
+    {
+        "path":  "scripts/render_figures.py",
+        "bytes":  1873,
+        "sha256":  "cab3ec17e94900e85dbeac00e989ae63debe1dab30b2ac81936c8276d998fb9e"
+    },
+    {
+        "path":  "scripts/validate_archive.py",
+        "bytes":  3066,
+        "sha256":  "cb970e3b4f3555c52068a3fae44691844ee87171e2332f51da8f877f5b46b94b"
+    }
+]

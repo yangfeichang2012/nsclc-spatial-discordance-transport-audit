@@ -1,0 +1,22 @@
+cff-version: 1.2.0
+message: "If you use this archive, please cite the Zenodo release and the parent data source."
+title: "NSCLC spatial discordance fixed-coefficient transport audit"
+type: software
+version: 1.0.0
+date-released: 2026-07-30
+authors:
+  - family-names: Duan
+    given-names: Chuan-Xin
+    affiliation: "National Cancer Center/National Clinical Research Center for Cancer/Cancer Hospital, Chinese Academy of Medical Sciences and Peking Union Medical College"
+  - family-names: Yang
+    given-names: Lang
+    affiliation: "China-Japan Friendship Hospital"
+repository-code: "https://github.com/yangfeichang2012/nsclc-spatial-discordance-transport-audit"
+license: MIT
+keywords:
+  - non-small-cell lung cancer
+  - spatial transcriptomics
+  - immunotherapy
+  - transportability
+  - reproducibility
+
