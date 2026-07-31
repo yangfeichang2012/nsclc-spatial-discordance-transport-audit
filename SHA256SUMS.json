@@ -1,11 +1,11 @@
 {
   "format_version": "2.0",
-  "archive_version": "1.0.1",
+  "archive_version": "1.0.2",
   "files": [
     {
       "path": ".gitattributes",
-      "bytes": 325,
-      "sha256": "d0e5d673da589ab7713aa057c25a2486400b11bd9ec24c188ffb3af7e828f812"
+      "bytes": 445,
+      "sha256": "ebf7ceb6bd765e0e583a43e35f1a4c72dd1eff7365a01fd099a1d47adf526aca"
     },
     {
       "path": ".github/workflows/reproduce.yml",
@@ -20,12 +20,12 @@
     {
       "path": ".zenodo.json",
       "bytes": 1681,
-      "sha256": "f8f284713ef24337b63850bb8615109a14ee2a1de3f014d74f60ea01a002aae1"
+      "sha256": "8808750b75c43e25bcccc2397134305ddb0985d6219ecc6dd6c40e51251af5f3"
     },
     {
       "path": "CITATION.cff",
       "bytes": 899,
-      "sha256": "829e5ab0b2b4b9802775a8dcd6cd93e45314e0b4162be4a85ec6a4022f9f2365"
+      "sha256": "fbed555b24806b575e279f7bd8d0fbd591ce1364f4656deb726d1a201d507ce9"
     },
     {
       "path": "LICENSE",
@@ -34,28 +34,28 @@
     },
     {
       "path": "PROTOCOL_HISTORY.md",
-      "bytes": 2042,
-      "sha256": "4f38aa76bafa74c1de0e829cfbf6454a54cfa4b7c95dfab2bfd0e420edefca3c"
+      "bytes": 3154,
+      "sha256": "51a29fdb19a8234770ec9c73e1eb4c5f264fdf9a3f7fd1e0ec6fe89eaa5d73cb"
     },
     {
       "path": "README.md",
-      "bytes": 4902,
-      "sha256": "8bc25607c50206f99410322f7a8ebe7d0e7d0f6b36b32e742baae6802ffb3ee6"
+      "bytes": 4977,
+      "sha256": "7c0b531dd9e9054a5091e83a463b3cb05e0d928000ccb80b1363d36d3cd22181"
     },
     {
       "path": "data/claim_ledger.csv",
-      "bytes": 859,
-      "sha256": "dfe6c51e82d214bd8264a38de4df29a258bd25117f5968ae40df9eabc4f6c773"
+      "bytes": 885,
+      "sha256": "ab304536dc3b5eb265c60d27381ffa4eed7acee5b3e28d0c5b4b504a7ad10a32"
     },
     {
       "path": "data/figure_source_data.csv",
-      "bytes": 408,
-      "sha256": "5a13bfe8f28be9cc7e0f6800a18ea73e1a71a224cfffc7c627fb9202eb61a08c"
+      "bytes": 399,
+      "sha256": "04e20c599b3c8e06230c6e4df2b048710ccc7ff7d43feadc5c569f4e7d01a82c"
     },
     {
       "path": "data/result_ledger.csv",
-      "bytes": 552,
-      "sha256": "45a91ad1b584aee37030874ff388f412328844f1a52fa0d4bf5f037ced932e9c"
+      "bytes": 543,
+      "sha256": "0b4127d85534302e995d61543f9c4eb6d6b7569ce3d257e8598034b75d00df6d"
     },
     {
       "path": "data/source_manifest.json",
@@ -123,9 +123,24 @@
       "sha256": "7f131a33318d717c925724f591dc4b91cf4a7aa1260e4051c50d53b4b1b6b7af"
     },
     {
+      "path": "protocol/g11_execution_authorization_historical_v1.0.json",
+      "bytes": 849,
+      "sha256": "4dde3ff2fe87faa620521d4dc2f3331de17f846e2c872b3fb8be6948fad296c5"
+    },
+    {
+      "path": "protocol/g11_execution_state_historical_v1.0.json",
+      "bytes": 1031,
+      "sha256": "5d0a557d1375a7ab19486a0e2e0b33b7e4c950bee48bc3d523df64001846d607"
+    },
+    {
       "path": "protocol/g11_protocol_contract_v1.0.json",
       "bytes": 4223,
       "sha256": "0c55d0e68811db73dc4c4be894472e3d37b805229fa4ccbb0a7ad6a40504f491"
+    },
+    {
+      "path": "protocol/g11_state_transition_and_supersession_v1.0.json",
+      "bytes": 4011,
+      "sha256": "c1349f2cb0504a3f0ca701aab99dd3d4c42d3dc507d1d144e35511e393218eab"
     },
     {
       "path": "protocol/g12_result_and_claim_lock_v1.0.json",
@@ -150,7 +165,7 @@
     {
       "path": "results/reproduced_results.json",
       "bytes": 2673,
-      "sha256": "e080bd0790637ab33c62f49e2d8a8cf3a14dd4c845198e362bd57c23c04401f0"
+      "sha256": "3ffa1758dbc01081f2290c920dd1e60fd21b8c2b81dd6e4f20c3a4383d89a3bd"
     },
     {
       "path": "results/uq_descriptive_bootstrap_delta_c.csv",
@@ -160,7 +175,7 @@
     {
       "path": "scripts/build_release.py",
       "bytes": 2904,
-      "sha256": "68748f119f15cedf07dd68978a2d0a70214bdc7721cd2bcd65654389616692b9"
+      "sha256": "30967c138c9271b41c361d23d23d026952259227b6e1ab6ca44d58e32e4aa12a"
     },
     {
       "path": "scripts/download_inputs.py",
@@ -175,12 +190,12 @@
     {
       "path": "scripts/reproduce_analysis.py",
       "bytes": 25152,
-      "sha256": "a613e3bd8f92295b0081cc8ea59c172462a43cfab6f4df9cbec3e387f97d0f20"
+      "sha256": "64e3f161b2b86cb9f49b37be13f80a4c522a2262a277c288b32a322cf45a57a4"
     },
     {
       "path": "scripts/validate_archive.py",
-      "bytes": 5212,
-      "sha256": "273cda3ae6cb605599b9afc47c49f21ea40b6fb1502731d63b1c61985cb47eda"
+      "bytes": 7793,
+      "sha256": "4d76019860870164c15ca69f2dba5549dd3ca8c736bd544bad8c146528f0259b"
     }
   ]
 }

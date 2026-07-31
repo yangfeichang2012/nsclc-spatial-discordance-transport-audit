@@ -1,0 +1,23 @@
+{
+  "execution_id": "PRJ015_G11_EXECUTION_V1",
+  "project_id": "PRJ-2026-015",
+  "gate": "G11",
+  "authorized_on": "2026-07-30",
+  "timezone": "Asia/Shanghai",
+  "authorizing_user_text": "GO运行G11",
+  "authorized_scope": [
+    "Greek fixed Yale B0/B1 transport as the sole confirmatory external center",
+    "2000 patient-level paired bootstrap repetitions with seed 20260731",
+    "UQ N=19 secondary descriptive stress test only",
+    "independent aggregate numerical validation"
+  ],
+  "not_authorized": [
+    "resume or reweight G09",
+    "external model refit or recalibration",
+    "promote UQ to confirmatory validation",
+    "pool UQ with Greek",
+    "outcome-guided gene, weight, threshold, aggregation, or center selection",
+    "causal, mechanistic, treatment-selection, or clinical-utility claims"
+  ],
+  "analysis_authorized": true
+}

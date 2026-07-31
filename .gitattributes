@@ -8,6 +8,8 @@ LICENSE text eol=lf
 *.txt text eol=lf
 *.csv text eol=lf
 *.json text eol=lf
+protocol/g11_execution_authorization_historical_v1.0.json -text
+protocol/g11_execution_state_historical_v1.0.json -text
 *.yml text eol=lf
 *.yaml text eol=lf
 *.cff text eol=lf

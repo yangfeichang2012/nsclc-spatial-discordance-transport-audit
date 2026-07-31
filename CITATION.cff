@@ -2,9 +2,9 @@ cff-version: 1.2.0
 message: "If you use this archive, please cite the Zenodo release and the parent data source."
 title: "Cohort-normalized fixed-coefficient NSCLC spatial discordance transport audit"
 type: software
-version: 1.0.1
+version: 1.0.2
 date-released: 2026-07-31
-doi: 10.5281/zenodo.21708848
+doi: 10.5281/zenodo.21715520
 authors:
   - family-names: Duan
     given-names: Chuan-Xin
@@ -13,7 +13,7 @@ authors:
     given-names: Lang
     affiliation: "China-Japan Friendship Hospital"
 repository-code: "https://github.com/yangfeichang2012/nsclc-spatial-discordance-transport-audit"
-url: "https://doi.org/10.5281/zenodo.21708848"
+url: "https://doi.org/10.5281/zenodo.21715520"
 license: MIT
 keywords:
   - non-small-cell lung cancer

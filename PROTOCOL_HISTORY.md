@@ -37,3 +37,24 @@ the fitted Yale coefficients and on the observed target-cohort preprocessing.
 
 No model selection, coefficient refitting, recalibration, threshold selection
 or additional sensitivity analysis is part of this corrected archive.
+
+## G11 authorization, completion and publication supersession
+
+The original G11 contract is retained byte-for-byte, including its
+pre-execution `analysis_go=false` state and historical use of
+`sole_confirmatory_external_center`. The subsequent user authorization and
+validated execution-state records are also retained byte-for-byte. Together
+they show the transition from awaiting explicit GO to `VALIDATED_COMPLETE` on
+30 July 2026.
+
+For publication, the historical confirmatory label is superseded by **primary
+target cohort under the amended G11 plan**. Greek was geographically held out
+but remained part of the same parent study and data release; it is not an
+independent study-level confirmatory validation. The machine-readable
+chronology, preserved object hashes and exact scope of this terminology-only
+amendment are in
+`protocol/g11_state_transition_and_supersession_v1.0.json`.
+
+This supersession changes current-state documentation and derived ledgers
+only. It does not alter the historical objects, analysis code, estimands,
+normalization, coefficients, bootstrap draws or locked Greek/UQ values.

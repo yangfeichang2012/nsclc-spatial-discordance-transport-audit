@@ -45,7 +45,7 @@ def main() -> int:
     output_dir.mkdir(parents=True, exist_ok=True)
     manifest = {
         "format_version": "2.0",
-        "archive_version": "1.0.1",
+        "archive_version": "1.0.2",
         "files": [
             {
                 "path": path.relative_to(ROOT).as_posix(),
@@ -60,10 +60,10 @@ def main() -> int:
     )
     subprocess.run([sys.executable, str(ROOT / "scripts" / "validate_archive.py")], check=True)
 
-    zip_path = output_dir / "nsclc-spatial-discordance-transport-audit-v1.0.1.zip"
+    zip_path = output_dir / "nsclc-spatial-discordance-transport-audit-v1.0.2.zip"
     if zip_path.exists():
         zip_path.unlink()
-    package_root = "nsclc-spatial-discordance-transport-audit-v1.0.1"
+    package_root = "nsclc-spatial-discordance-transport-audit-v1.0.2"
     files_with_manifest = release_files() + [ROOT / "SHA256SUMS.json"]
     with zipfile.ZipFile(zip_path, "w", compression=zipfile.ZIP_DEFLATED, compresslevel=9) as archive:
         for path in sorted(files_with_manifest, key=lambda item: item.relative_to(ROOT).as_posix()):

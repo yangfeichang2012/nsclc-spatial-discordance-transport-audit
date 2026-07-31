@@ -1,0 +1,23 @@
+{
+  "execution_id": "PRJ015_G11_EXECUTION_V1",
+  "status": "VALIDATED_COMPLETE",
+  "started_utc": "2026-07-30T07:22:10.555508+00:00",
+  "analysis_authorized": true,
+  "seed": 20260731,
+  "bootstrap_repetitions": 2000,
+  "preflight_manifest_sha256": "edfc1bf4d3ca63c646031efd25b9f10842ff960136fe882de158cea07989fffb",
+  "preflight_files_verified": 11,
+  "outcome_linked_analysis_opened": true,
+  "software": {
+    "python": "3.12.13 (main, Mar  3 2026, 15:01:35) [MSC v.1944 64 bit (AMD64)]",
+    "platform": "Windows-11-10.0.26200-SP0",
+    "numpy": "2.3.5"
+  },
+  "analysis_completed_utc": "2026-07-30T07:22:51.956857+00:00",
+  "result_sha256": "037f92b7e4523a3902ad475747e11d10e3288949ad15ca89d83318d948f6940a",
+  "decision": "NO_INCREMENT_OR_HARM",
+  "independent_validation": "PASS",
+  "independent_validation_sha256": "82844e45d8e4420aec6185e0c4927df60b60766ca32de27fa23b1c89f0505bf2",
+  "validation_completed_utc": "2026-07-30T07:24:04+00:00",
+  "temporary_participant_level_validation_files_removed": true
+}

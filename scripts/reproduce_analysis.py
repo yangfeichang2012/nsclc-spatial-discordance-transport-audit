@@ -587,7 +587,7 @@ def main() -> int:
         supplementary, args.output / "candidate_universe.csv"
     )
     payload = {
-        "archive_version": "1.0.1",
+        "archive_version": "1.0.2",
         "study_identity": "analysis-plan-locked post-deviation secondary transport audit",
         "outcome": "two-year truncated PFS",
         "preprocessing": "target-cohort median/IQR normalization; coefficients fixed, full pipeline not fixed",

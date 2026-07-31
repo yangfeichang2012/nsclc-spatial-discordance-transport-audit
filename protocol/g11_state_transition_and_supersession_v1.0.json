@@ -1,0 +1,106 @@
+{
+  "record_id": "PRJ015_G11_STATE_TRANSITION_AND_SUPERSESSION_V1",
+  "record_version": "1.0",
+  "issued_on": "2026-07-31",
+  "purpose": "Prospective publication-governance correction without changing the locked G11 analysis or numerical results.",
+  "historical_objects_preserved_unchanged": [
+    {
+      "path": "protocol/g11_protocol_contract_v1.0.json",
+      "sha256": "0c55d0e68811db73dc4c4be894472e3d37b805229fa4ccbb0a7ad6a40504f491",
+      "historical_state": "PROTOCOL_FROZEN_AWAITING_EXPLICIT_G11_ANALYSIS_GO"
+    },
+    {
+      "path": "protocol/g11_execution_authorization_historical_v1.0.json",
+      "sha256": "4dde3ff2fe87faa620521d4dc2f3331de17f846e2c872b3fb8be6948fad296c5",
+      "historical_state": "USER_AUTHORIZED_G11_EXECUTION"
+    },
+    {
+      "path": "protocol/g11_execution_state_historical_v1.0.json",
+      "sha256": "5d0a557d1375a7ab19486a0e2e0b33b7e4c950bee48bc3d523df64001846d607",
+      "historical_state": "VALIDATED_COMPLETE"
+    },
+    {
+      "path": "protocol/g12_result_and_claim_lock_v1.0.json",
+      "sha256": "8162e27aec0b8540015c1e19bea3bcb0e323a51395562082fedb28ca6059f161",
+      "historical_state": "RESULT_AND_CLAIM_LOCKED"
+    }
+  ],
+  "state_transition": [
+    {
+      "sequence": 1,
+      "state": "PROTOCOL_FROZEN_AWAITING_EXPLICIT_G11_ANALYSIS_GO",
+      "evidence": "protocol/g11_protocol_contract_v1.0.json"
+    },
+    {
+      "sequence": 2,
+      "state": "G11_EXECUTION_AUTHORIZED",
+      "date": "2026-07-30",
+      "evidence": "protocol/g11_execution_authorization_historical_v1.0.json"
+    },
+    {
+      "sequence": 3,
+      "state": "G11_VALIDATED_COMPLETE",
+      "date": "2026-07-30",
+      "evidence": "protocol/g11_execution_state_historical_v1.0.json"
+    },
+    {
+      "sequence": 4,
+      "state": "G12_RESULT_AND_CLAIM_LOCKED",
+      "date": "2026-07-30",
+      "evidence": "protocol/g12_result_and_claim_lock_v1.0.json"
+    },
+    {
+      "sequence": 5,
+      "state": "PUBLICATION_GOVERNANCE_AMENDED",
+      "date": "2026-07-31",
+      "evidence": "this record"
+    }
+  ],
+  "current_state": {
+    "G11": "VALIDATED_COMPLETE",
+    "G12": "RESULT_AND_CLAIM_LOCKED",
+    "analysis_authorized": true,
+    "scientific_values_changed": false,
+    "new_analysis_performed_for_this_amendment": false
+  },
+  "publication_supersession": [
+    {
+      "historical_term": "sole_confirmatory_external_center",
+      "current_publication_term": "primary target cohort under the amended G11 plan",
+      "reason": "Greek is geographically held out within the same parent study and is not an independent study-level confirmatory validation."
+    },
+    {
+      "historical_term": "geographically held-out confirmatory center within the parent study",
+      "current_publication_term": "geographically held-out target cohort within the parent study",
+      "reason": "The confirmatory label overstates the study-level independence and the post-deviation chronology."
+    },
+    {
+      "historical_term": "prespecified secondary reanalysis",
+      "current_publication_term": "analysis-plan-locked post-deviation secondary transport audit",
+      "reason": "G11 was locked before outcome-linked execution, but only after G09 terminated and G10 recovered a smaller public UQ crosswalk."
+    },
+    {
+      "historical_state": "PROTOCOL_FROZEN_AWAITING_EXPLICIT_G11_ANALYSIS_GO",
+      "current_state": "G11_VALIDATED_COMPLETE",
+      "reason": "The user subsequently authorized G11 and the execution and independent aggregate validation completed on 2026-07-30."
+    }
+  ],
+  "scope": {
+    "applies_to": [
+      "publication-facing terminology",
+      "derived result ledgers",
+      "repository current-state documentation",
+      "release metadata"
+    ],
+    "does_not_modify": [
+      "historical protocol files",
+      "historical authorization wording",
+      "historical result-lock wording",
+      "Yale coefficients",
+      "Greek or UQ estimates",
+      "bootstrap draws",
+      "normalization",
+      "analysis code or estimands"
+    ]
+  }
+}

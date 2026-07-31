@@ -80,7 +80,8 @@ tested after extraction to prevent line-ending-dependent manifest failures.
 - `results/reproduced_results.json`: reconstructed aggregate result
 - `results/*bootstrap_delta_c.csv`: non-identifying bootstrap draws
 - `results/candidate_universe.csv`: full parent lists and selected anchors
-- `protocol/`: original G11 contract and result/claim lock
+- `protocol/`: immutable G11 contract, execution authorization and state,
+  result/claim lock, and publication supersession record
 - `scripts/download_inputs.py`: public-source acquisition and verification
 - `scripts/reproduce_analysis.py`: end-to-end result reconstruction
 - `scripts/render_figures.py`: aggregate figure generation
@@ -99,7 +100,7 @@ submission correspondence, credential or machine-specific path.
 
 ## Citation and license
 
-See `CITATION.cff`. Version 1.0.1 supersedes v1.0.0 and is archived under
-version DOI `10.5281/zenodo.21708848` (concept DOI
-`10.5281/zenodo.21702762`). Code is MIT licensed.
+See `CITATION.cff`. Version 1.0.2 supersedes v1.0.1 and v1.0.0. Its version
+DOI is `10.5281/zenodo.21715520`; the concept DOI is
+`10.5281/zenodo.21702762`. Code is MIT licensed.
 Source datasets retain their original repository terms.
